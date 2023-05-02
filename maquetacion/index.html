@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Xacademy Clase 1 maquetacion</title>
+    <title>Fundación Tecnologia con proposito</title>
+    <link rel="stylesheet" href="css/style.css">
     <style>
         body {
             margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
         }
         p {
             margin-right: 40px;
@@ -16,16 +18,34 @@
             margin: 0px 400px;
             text-align: center;
         }
-        button.redondo {
+        a.redondo {
             background-color: white;
+            align-items: center;
+            align-content: center;
+            justify-content: center;
+            text-decoration: none;
             border: 1px solid black;
             border-radius: 25px;
             padding: 0px 20px;
             height: 32px;
+            cursor: pointer;
         }
         div#introduction-actions {
             display: flex;
             justify-content: center;
+    
+        }
+        a.headerbut{
+            padding:15px;
+            cursor: pointer;
+            text-decoration: none;
+            color: black;
+        }
+        a.headerbut:hover{
+            color:blueviolet;
+        }
+        .redondo:hover{
+            color: black;
         }
     </style>
 </head>
@@ -35,12 +55,27 @@
             <img src="logo.svg">
         </div>
         <div id="header-right" style="display: flex; align-items: center;">
-            <p>Nosotros</p>
-            <p>Programas</p>
-            <p>Capaciontaciones</p>
-            <p>Alianzas</p>
-            <p>Contacto</p>
-            <button class="redondo">Sumate +</button>
+            <a class="headerbut" href="#">Nosotros</a>
+            <a class="headerbut" href="#">Programas</a>
+            <a class="headerbut" href="#">Capacitaciones</a>
+            <a class="headerbut" href="#">Alianzas</a>
+            <a class="headerbut" href="#">Contacto</a>
+           <div class="redondo"> <a class="redondo" href="">Sumate +</a></div>
+           <a href=""><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z"></path>
+            <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"></path>
+            <path d="M16.5 7.5l0 .01"></path>
+         </svg></a>
+           <a href=""><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linkedin" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"></path>
+            <path d="M8 11l0 5"></path>
+            <path d="M8 8l0 .01"></path>
+            <path d="M12 16l0 -5"></path>
+            <path d="M16 16v-3a2 2 0 0 0 -4 0"></path>
+         </svg></a>
+
         </div>
     </div>
     <div id="introduction" style="padding: 48px;">
@@ -48,9 +83,87 @@
             <h1>Somos una Fundación dedicada a mejorar la calidad de vida de las personas y su entorno, a través de la tecnología.</h1>
         </div>
         <div id="introduction-actions" style="margin-top: 25px;">
-            <button class="redondo">Contactanos -></button>
-            <button class="redondo" style="margin-left: 14px;">Sumate +</button>
+            <a class="redondo">Contactanos -></a>
+            <a class="redondo" style="margin-left: 14px;">Sumate +</a>
         </div>
     </div>
+    
+    <div id="impacto">
+       
+            <div class="izquierda">
+                <h2>. Impacto</h2>
+                <p>Buscamos construir alianzas y fortalecer vínculos para generar una transformación real en la comunidad. Trabajamos para acercar la tecnología innovadora y disruptiva del sector privado hacia el sector social.</p>
+            </div>
+            <div class="derecha">
+                <div class="row-1">
+                    <h1>58</h1>
+                    <p>Localidades</p>
+                </div>
+                <div class="row-2">
+                    <h1>+50</h1>
+                    <p>Mentores</p>
+                </div>
+                <div class="row-3">
+                    <h1>301</h1>
+                    <p>Participantes</p>
+                </div>
+            </div>
+    </div>
+
+    <div class="programas">
+        <br>
+        
+        <div class="izquierda-content">
+            <h2>. Programas</h2>
+            <img src="https://technologywithpurpose.org/wp-content/uploads/2022/11/xacademy-01-800x533.jpg" alt="" width="100%">
+        </div>
+        <div class="derecha-content">
+            <br><br><br><br>
+            <img src="https://technologywithpurpose.org/wp-content/uploads/2022/10/xacademy.svg" alt=""> 
+            <p>xAcademy es un programa de formación en tecnología llevado adelante por la Fundación Tecnología con Propósito junto a Santex que busca promover un cambio positivo en la comunidad a través de la educación en IT, apuntando a lograr la inserción laboral de personas en el mundo tecnológico.</p> <br>
+            <a class="headerbut redondo" href="#">Mas Info -></a>
+        </div>
+    </div>
+    <br><br><br><br>
+    <div class="programas">
+        <br>
+        
+        <div class="izquierda-content">
+            <br><br><br><br>
+            <h2>Robótica educativa: la tecnología del futuro</h2> <br>
+                <p>Durante el curso, los alumnos y alumnas a través de la robótica desarrollan la curiosidad, el autodidactismo y las habilidades blandas necesarias para afrontar la revolución tecnológica del siglo XXI.</p>
+                <br>
+            <a class="headerbut redondo" href="#">Mas Info -></a>
+        </div>
+        <div class="derecha-content">
+            
+            <img src="https://technologywithpurpose.org/wp-content/uploads/2022/11/robotica-educativa-07-800x533.jpg" alt="" width="100%">
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div class="programas">
+        <br>
+        
+        <div class="izquierda-content">
+            <h2>. Capacitaciones</h2>
+            <img src="https://technologywithpurpose.org/wp-content/uploads/2022/11/estafas-virtuales-04-800x603.jpg" alt="" width="100%">
+        </div>
+        <div class="derecha-content">
+            <br><br><br><br>
+            <h2>Estafas virtuales: ¿cómo protegernos?</h2>
+            <p>Los canales de comunicación a través de medios digitales cobraron gran protagonismo a partir de la pandemia. Al mismo tiempo, se perfeccionan cada vez más rápido las modalidades de estafas y fraudes virtuales. En esta capacitación vas a aprender diferentes tips y consejos útiles para navegar de manera más segura.</p> <br>
+            <a class="headerbut redondo" href="#">Mas Info -></a>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
 </body>
 </html>
